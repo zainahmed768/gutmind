@@ -1,0 +1,93 @@
+.bussiness-sec {
+  padding: 50px 0px;
+}
+.bussiness-sec .content-wrapper {
+  text-align: center;
+}
+.bussiness-sec .content-wrapper h2 {
+  color: #ee4698;
+  font-weight: 600;
+}
+.main-cirlce-wrapper {
+  position: relative;
+  top: 192px;
+  left: 228px;
+}
+.main-cirlce-wrapper .main-circle-content-wrapper {
+  position: absolute;
+  top: 45%;
+  left: 9%;
+}
+.main-cirlce-wrapper .main-circle-content-wrapper h4 {
+  color: #fff;
+  font-weight: 600;
+}
+.bussiness-sec {
+  padding: 50px 0px;
+  position: relative;
+  padding-bottom: 400px;
+}
+.bussiness-sec .cirle-wrapper {
+  position: relative;
+}
+.side-circle-wrapper {
+  height: 165px;
+  width: 165px;
+  background: #f7b7d3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px dashed #ef4999;
+  margin: 10px 0px;
+  position: absolute;
+  z-index: 9;
+}
+.side-circle-wrapper h5 {
+  font-size: 18px !important;
+  color: #fff;
+}
+.cirle-wrapper .Performsnce {
+  left: 34%;
+}
+.cirle-wrapper .Therapeutics {
+  top: 40%;
+  left: 8%;
+}
+.cirle-wrapper .Therapes {
+  top: 129%;
+  left: 7%;
+}
+.cirle-wrapper .Medical {
+  top: 177%;
+  left: 35%;
+}
+.cirle-wrapper .Cosmetics {
+  top: 141%;
+  right: 17%;
+}
+.cirle-wrapper .Alternative {
+  top: 47%;
+  right: 15%;
+}
+.bussiness-sec p {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+.bussiness-sec .side-contect {
+  position: absolute;
+  margin-top: 182px;
+  width: 80%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.bussiness-sec .sdd {
+  margin-top: 209px;
+  text-align: left !important;
+}
+.bussiness-sec .sdd .scrol p {
+  text-align: left;
+  font-weight: 700 !important;
+}

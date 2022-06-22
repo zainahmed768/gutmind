@@ -1,0 +1,19 @@
+/* .team .container {
+  max-width: 1366px;
+} */
+.team {
+  padding: 100px 0px;
+}
+.team-card-wrapper .team-content-wrapper {
+  margin-top: 20px;
+}
+.team-card-wrapper .team-content-wrapper h4 {
+  color: #070707;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.team-card-wrapper .team-content-wrapper h6 {
+  color: #a89393;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
