@@ -92,3 +92,28 @@
   text-align: left;
   font-weight: 700 !important;
 }
+@media (max-width: 1366px) {
+  .cirle-wrapper .Alternative {
+    right: 1%;
+    top: 40%;
+  }
+  .cirle-wrapper .Cosmetics {
+    top: 131%;
+    right: 0%;
+  }
+  .cirle-wrapper .Medical {
+    top: 177%;
+    left: 41%;
+  }
+  .cirle-wrapper .Performsnce {
+    left: 41%;
+  }
+  .cirle-wrapper .Therapes {
+    top: 135%;
+    left: 9%;
+  }
+  .cirle-wrapper .Therapeutics {
+    top: 49%;
+    left: 8%;
+  }
+}
