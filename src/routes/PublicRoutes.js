@@ -7,6 +7,7 @@ import Contact from "../Pages/contact/contact";
 import Team from "../Pages/Team/Team";
 import News from "../Pages/News/News";
 import OurBussiness from "../Pages/Bussiness/OurBussiness";
+import Innovation from "../Pages/Innovation/Innovation";
 
 const PublicRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const PublicRoutes = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/News" element={<News />} />
           <Route path="/OurBussiness" element={<OurBussiness />} />
+          <Route path="/Innovation" element={<Innovation />} />
         </Routes>
       </BrowserRouter>
     </>

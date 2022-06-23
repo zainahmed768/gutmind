@@ -10,6 +10,10 @@ import News4 from "../assets/img/news4.png";
 import News5 from "../assets/img/news5.png";
 import News6 from "../assets/img/news6.png";
 import main_circle from "../assets/img/main-circle.png";
+import com1 from "../assets/img/comm1.png";
+import com2 from "../assets/img/comm2.png";
+import com3 from "../assets/img/comm3.png";
+import com4 from "../assets/img/comm4.png";
 
 export {
   logo,
@@ -24,4 +28,8 @@ export {
   News5,
   News6,
   main_circle,
+  com1,
+  com2,
+  com3,
+  com4,
 };

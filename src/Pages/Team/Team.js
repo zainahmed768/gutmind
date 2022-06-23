@@ -38,6 +38,11 @@ const Team = () => {
       <section className="team">
         <div className="container">
           <div className="row">
+            <div className="col-lg-12">
+              <div className="content-wrapper">
+                <h2>Our Team</h2>
+              </div>
+            </div>
             {team.map((data, index) => {
               return (
                 <div className="col-lg-3">

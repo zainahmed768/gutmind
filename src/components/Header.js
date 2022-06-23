@@ -1,9 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 import { logo } from "../constant";
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = (event) => {
+    // 👇️ toggle isActive state on click
+    setIsActive((current) => !current);
+  };
   useEffect(() => {
     // Mobile Nav
     $("document").ready(function () {
@@ -42,7 +48,7 @@ const Header = () => {
               <div className="icon-wrapper">
                 <div className="canvas-icon">
                   <label className="menu">
-                    <input type="checkbox" />
+                    <input onClick={handleClick} type="checkbox" />
                     <div></div>
                     <div></div>
                     <div></div>
@@ -53,25 +59,31 @@ const Header = () => {
           </div>
         </div>
         {/* main header ends here */}
-        <div className="mobile-header">
+        <div className={+isActive ? "mobile-header show" : "mobile-header"}>
           <ul className="mobile-nav">
             <li className="nav-item">
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <a href="#">About Us</a>
+              <Link to="/about">About us</Link>
             </li>
             <li className="nav-item">
-              <a href="#">Buying</a>
+              <Link to="/AboutGutMind">About GutMind</Link>
             </li>
             <li className="nav-item">
-              <a href="#">Selling</a>
+              <Link to="/Innovation">Our Innovation Process</Link>
             </li>
             <li className="nav-item">
-              <a href="#">News</a>
+              <Link to="/OurBussiness">Our Businesses</Link>
             </li>
             <li className="nav-item">
-              <a href="#">Contact Us</a>
+              <Link to="/team">Team</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/news">News</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>

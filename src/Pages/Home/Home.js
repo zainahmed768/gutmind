@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/style.css";
-import Slider from "react-slick";
+import Slider from "react-slick"; 
 
 const Home = () => {
   const settings = {
@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Slider {...settings}>
+      <Slider className="Banner-slider" {...settings}>
         {/* face sec starts here */}
         <section className="face-sec">
           <div className="container">

@@ -23,9 +23,10 @@
   font-weight: 600;
 }
 .bussiness-sec {
-  padding: 50px 0px;
+  padding: 104px 0px;
   position: relative;
   padding-bottom: 400px;
+  z-index: 1;
 }
 .bussiness-sec .cirle-wrapper {
   position: relative;
