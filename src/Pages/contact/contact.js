@@ -66,10 +66,10 @@ const Contact = () => {
                   </div>
                   <ReCAPTCHA
                     ref={recaptchaRef}
-                    sitekey="Your client site key"
+                    sitekey="6LcEx5YgAAAAAGkucPGsai61Y4yspbVgwR1rmYUQ"
                     onChange={onChange}
                   />
-                  <div className="form-group">
+                  <div className="form-group mt-3">
                     <button className="btn" type="button">
                       Submit
                     </button>
