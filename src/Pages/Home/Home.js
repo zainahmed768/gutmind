@@ -8,7 +8,7 @@ const Home = () => {
   const settings = {
     draggable: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 5000,
     arrows: false,
     dots: false,
     fade: true,
