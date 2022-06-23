@@ -2,8 +2,17 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/contact.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
+  const recaptchaRef = React.createRef();
+  const onSubmit = () => {
+    const recaptchaValue = recaptchaRef.current.getValue();
+    this.props.onSubmit(recaptchaValue);
+  };
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   return (
     <>
       <Header />
@@ -28,7 +37,7 @@ const Contact = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-5">
               <div className="contact-form-wrapper">
-                <form id="form">
+                <form id="form" onSubmit={onSubmit}>
                   <div className="form-group row">
                     <div className="col-md-6">
                       <input placeholder="Name" className="form-control" />
@@ -55,6 +64,11 @@ const Contact = () => {
                       rows="5"
                     ></textarea>
                   </div>
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    sitekey="Your client site key"
+                    onChange={onChange}
+                  />
                   <div className="form-group">
                     <button className="btn" type="button">
                       Submit
