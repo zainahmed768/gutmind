@@ -63,7 +63,7 @@ header .mobile-header {
   height: 99%;
   position: fixed;
   /* background: #EA5099; */
-  background: #131313;
+  background: #f195bf;
   top: 0;
   z-index: 1;
   right: 0;
@@ -97,11 +97,14 @@ header .mobile-header ul.mobile-nav li.nav-item {
   margin: 20px 0px;
 }
 header .mobile-header ul.mobile-nav li.nav-item a {
-  color: #fff;
+  color: #ee4698;
   font-size: 22px;
   padding: 0 20px;
   text-decoration: none;
 }
+.canvas-icon label.cancel div {
+  background: #fff;
+} 
 .menu {
   display: block;
   width: 40px;

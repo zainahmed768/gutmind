@@ -5,17 +5,21 @@ import { logo } from "../constant";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
+  const [cancel, setCancel] = useState(false);
 
   const handleClick = (event) => {
     // 👇️ toggle isActive state on click
     setIsActive((current) => !current);
   };
+  const can = (event) => {
+    setCancel((current) => !current);
+  };
   useEffect(() => {
     // Mobile Nav
     $("document").ready(function () {
-      $("header  .canvas-icon input").click(function () {
+      $("header  .canvas-icon label.menu").click(function () {
         $("header .mobile-header").addClass("show");
-        $(this).addClass("cancel");
+        // $(this).toggleClass("cancel");
       });
 
       $("#header .cancel").click(function () {
@@ -46,8 +50,8 @@ const Header = () => {
             </div>
             <div className="col-6 align-self-center">
               <div className="icon-wrapper">
-                <div className="canvas-icon">
-                  <label className="menu">
+                <div onClick={can} className="canvas-icon">
+                  <label className={+cancel ? "menu cancel" : "menu"}>
                     <input onClick={handleClick} type="checkbox" />
                     <div></div>
                     <div></div>
