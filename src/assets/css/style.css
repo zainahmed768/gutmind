@@ -41,9 +41,9 @@ p {
   font-weight: 400 !important;
 }
 /* font ends here */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 /* header starts here */
 header#header {
   background: #fff;
