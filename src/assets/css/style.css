@@ -45,6 +45,19 @@ p {
   display: none;
 } */
 /* header starts here */
+.cross i {
+  color: #fff;
+  font-size: 40px;
+}
+.cross {
+  text-align: right;
+  margin-right: 30px;
+  position: relative;
+  top: -76px;
+}
+.canvas-icon {
+  display: inline-block;
+}
 header#header {
   background: #fff;
   padding: 10px 65px;
@@ -55,7 +68,7 @@ header#header {
 header .icon-wrapper {
   position: relative;
   text-align: -webkit-right;
-  z-index: 8;
+  /* z-index: 8; */
 }
 /* mobil header starts here */
 header .mobile-header {
@@ -63,7 +76,7 @@ header .mobile-header {
   height: 99%;
   position: fixed;
   /* background: #EA5099; */
-  background: #f195bf;
+  background: #f195bfe0;
   top: 0;
   z-index: 1;
   right: 0;
@@ -103,8 +116,8 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   text-decoration: none;
 }
 .canvas-icon label.cancel div {
-  background: #fff;
-} 
+  /* background: #fff; */
+}
 .menu {
   display: block;
   width: 40px;

@@ -14,6 +14,7 @@ import com1 from "../assets/img/comm1.png";
 import com2 from "../assets/img/comm2.png";
 import com3 from "../assets/img/comm3.png";
 import com4 from "../assets/img/comm4.png";
+import toggle_icon from "../assets/img/toggle-icon.svg";
 
 export {
   logo,
@@ -32,4 +33,5 @@ export {
   com2,
   com3,
   com4,
+  toggle_icon,
 };

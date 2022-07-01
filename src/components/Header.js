@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
-import { logo } from "../constant";
+import { logo, toggle_icon } from "../constant";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,7 +12,14 @@ const Header = () => {
     setIsActive((current) => !current);
   };
   const can = (event) => {
+    // setCancel((current) => !current);
+  };
+  const openmenu = () => {
+    $("header .mobile-header").addClass("show");
     setCancel((current) => !current);
+  };
+  const hidemenu = () => {
+    $("#header .mobile-header").removeClass("show");
   };
   useEffect(() => {
     // Mobile Nav
@@ -50,12 +57,17 @@ const Header = () => {
             </div>
             <div className="col-6 align-self-center">
               <div className="icon-wrapper">
-                <div onClick={can} className="canvas-icon">
+                <div
+                  onMouseOver={openmenu}
+                  // onClick={can}
+                  className="canvas-icon"
+                >
                   <label className={+cancel ? "menu cancel" : "menu"}>
-                    <input onClick={handleClick} type="checkbox" />
+                    {/* <input  onClick={handleClick}  type="checkbox" />
                     <div></div>
                     <div></div>
-                    <div></div>
+                    <div></div> */}
+                    <img src={toggle_icon} />
                   </label>
                 </div>
               </div>
@@ -63,7 +75,13 @@ const Header = () => {
           </div>
         </div>
         {/* main header ends here */}
-        <div className={+isActive ? "mobile-header show" : "mobile-header"}>
+        <div
+          onMouseLeave={hidemenu}
+          className={+isActive ? "mobile-header show" : "mobile-header"}
+        >
+          <div className="cross">
+            <i className="fa fa-close"></i>
+          </div>
           <ul className="mobile-nav">
             <li className="nav-item">
               <Link to="/">Home</Link>
@@ -71,9 +89,9 @@ const Header = () => {
             <li className="nav-item">
               <Link to="/about">About us</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/AboutGutMind">About GutMind</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/Innovation">Our Innovation Process</Link>
             </li>

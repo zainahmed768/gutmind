@@ -57,12 +57,15 @@
   left: 8%;
 }
 .cirle-wrapper .Therapes {
-  top: 129%;
+  top: 134%;
   left: 7%;
 }
 .cirle-wrapper .Medical {
   top: 177%;
   left: 35%;
+}
+.side-circle-wrapper a {
+  text-decoration: none;
 }
 .cirle-wrapper .Cosmetics {
   top: 141%;
@@ -86,6 +89,7 @@
   background: #f7b7d3;
   padding: 20px;
   color: #ef4999;
+  transition: all 1s ease-in-out;
 }
 .bussiness-sec .sdd {
   margin-top: 209px;
@@ -119,4 +123,9 @@
     top: 49%;
     left: 8%;
   }
+}
+.more-chart-text a {
+  color: #ee4698;
+  text-transform: capitalize;
+  text-decoration: underline;
 }

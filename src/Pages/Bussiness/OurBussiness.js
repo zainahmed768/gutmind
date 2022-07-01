@@ -56,21 +56,24 @@ const OurBussiness = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="content-wrapper">
-                <h2>
-                  Our Innovation And Commercialization <br /> Process
-                </h2>
+                <h2>Our Business and Markets</h2>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="cirle-wrapper">
+            <div className="col-lg-6 mt-5">
+              <div className="more-chart-text">
+                <a href="">click on each BU to learn more</a>
+              </div>
+              <div className="cirle-wrapper mt-5">
                 <div
                   className="Performsnce side-circle-wrapper"
                   onMouseEnter={handleMouseOver}
                   onMouseLeave={handleMouseOut}
                 >
-                  <h5>
-                    Performsnce <br /> Beverages <br /> Bu
-                  </h5>
+                  <a href="https://mojudrinks.com/" target="blank">
+                    <h5>
+                      Performsnce <br /> Beverages <br /> BU
+                    </h5>
+                  </a>
                 </div>
                 <div
                   className="Therapeutics side-circle-wrapper"
@@ -113,9 +116,11 @@ const OurBussiness = () => {
                   onMouseOver={handleMouseOver6}
                   onMouseOut={handleMouseOut6}
                 >
-                  <h5>
-                    Alternative <br /> Meats <br /> Bu
-                  </h5>
+                  <a href="https://www.denovofoods.com.au/" target="blank">
+                    <h5>
+                      Alternative <br /> Meats <br /> BU
+                    </h5>
+                  </a>
                 </div>
                 <div className="main-cirlce-wrapper">
                   <div className="main-circle-img-wrapper">
