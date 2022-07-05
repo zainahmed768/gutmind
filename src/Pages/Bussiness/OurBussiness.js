@@ -284,9 +284,9 @@ const OurBussiness = () => {
           <div className="row sdd">
             <div className="col-lg-6"></div>
             <div className="col-lg-6">
-              <div className="scrol">
+              {/* <div className="scrol">
                 <p>scroll over each BU to learn more</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

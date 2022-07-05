@@ -49,3 +49,15 @@
   font-size: 19px !important;
   padding: 10px;
 }
+.about-sec .vi-con {
+  background: whitesmoke;
+  padding: 20px;
+  margin: 10px;
+  height: 198px;
+  border: 1px solid #ee4698;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-sec .vi-con:hover {
+  box-shadow: 0px 0px 4px 2px #ee4698;
+}

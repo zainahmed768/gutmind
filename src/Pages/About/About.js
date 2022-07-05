@@ -50,34 +50,44 @@ const About = () => {
                 </p>
               </div>
               <div className="content-wrapper">
-                <div className="vi-con">
-                  <h4>Our Vision :</h4>
-                  <p>
-                    To be the leading innovator of business model and food
-                    solutions for physical and mental health.
-                  </p>
-                </div>
-                <div className="vi-con">
-                  <h4>Our Mission :</h4>
-                  <p>
-                    To build the world’s most sophisticated solution platform
-                    linking food, to healthy microbiota, to physical and mental
-                    health.
-                  </p>
-                </div>
-                <div className="vi-con">
-                  <h4>Our Purpose :</h4>
-                  <p>
-                    To realize the vision of health through food
-                    unapologetically.
-                  </p>
-                </div>
-                <div className="vi-con">
-                  <h4>Our Values:</h4>
-                  <p>
-                    To do good by being good and professional and having a
-                    contribution mindset
-                  </p>
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="vi-con">
+                      <h4>Our Vision :</h4>
+                      <p>
+                        To be the leading innovator of business model and food
+                        solutions for physical and mental health.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="vi-con">
+                      <h4>Our Mission :</h4>
+                      <p>
+                        To build the world’s most sophisticated solution
+                        platform linking food, to healthy microbiota, to
+                        physical and mental health.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="vi-con">
+                      <h4>Our Purpose :</h4>
+                      <p>
+                        To realize the vision of health through food
+                        unapologetically.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="vi-con">
+                      <h4>Our Values:</h4>
+                      <p>
+                        To do good by being good and professional and having a
+                        contribution mindset
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

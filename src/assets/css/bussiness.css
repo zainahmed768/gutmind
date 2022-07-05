@@ -99,7 +99,7 @@
   text-align: left;
   font-weight: 700 !important;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1440px) {
   .cirle-wrapper .Alternative {
     right: 1%;
     top: 40%;
