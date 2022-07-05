@@ -59,6 +59,7 @@ const OurBussiness = () => {
                 <h2>Our Business and Markets</h2>
               </div>
             </div>
+            <div className="col-lg-3"></div>
             <div className="col-lg-6 mt-5">
               <div className="more-chart-text">
                 <a href="">click on each BU to learn more</a>
@@ -134,151 +135,154 @@ const OurBussiness = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              {isHovering && (
-                <div
-                  className="performance-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
-              {isHovering2 && (
-                <div
-                  className="Therapeutics-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
-              {isHovering3 && (
-                <div
-                  className="Therapes-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
-              {isHovering4 && (
-                <div
-                  className="Medical-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
-              {isHovering5 && (
-                <div
-                  className="Cosmetics-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
-              {isHovering6 && (
-                <div
-                  className="Alternative-content-wrapper side-contect"
-                  style={{ opacity: 1 }}
-                >
-                  <p>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a.
-                    Aliquam malesuada bibendum arcu vitae elementum curabitur
-                    vitae nunc. Aliquam id diam maecenas ultricies mi eget. Dui
-                    ut ornare lectus sit amet est placerat in. Eget felis eget
-                    nunc lobortis.
-                  </p>
-                  <p>
-                    Et netus et malesuada fames. Aenean vel elit scelerisque
-                    mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra justo.
-                  </p>
-                  <p>
-                    A cras semper auctor neque vitae tempus quam. Senectus et
-                    netus et malesuada fames. Id velit ut tortor pretium viverra
-                    suspendisse potenti nullam.
-                  </p>
-                </div>
-              )}
+            <div className="col-lg-3"></div>
+            <div className="col-lg-12">
+              <div className="contemt">
+                {isHovering && (
+                  <div
+                    className="performance-content-wrapper side-contect side-contect1"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+                {isHovering2 && (
+                  <div
+                    className="Therapeutics-content-wrapper side-contect side-contect2"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+                {isHovering3 && (
+                  <div
+                    className="Therapes-content-wrapper side-contect side-contect3"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+                {isHovering4 && (
+                  <div
+                    className="Medical-content-wrapper side-contect side-contec4"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+                {isHovering5 && (
+                  <div
+                    className="Cosmetics-content-wrapper side-contect side-contect5"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+                {isHovering6 && (
+                  <div
+                    className="Alternative-content-wrapper side-contect side-contect6"
+                    style={{ opacity: 1 }}
+                  >
+                    <p>
+                      Feugiat scelerisque varius morbi enim nunc faucibus a.
+                      Aliquam malesuada bibendum arcu vitae elementum curabitur
+                      vitae nunc. Aliquam id diam maecenas ultricies mi eget.
+                      Dui ut ornare lectus sit amet est placerat in. Eget felis
+                      eget nunc lobortis.
+                    </p>
+                    <p>
+                      Et netus et malesuada fames. Aenean vel elit scelerisque
+                      mauris pellentesque pulvinar. Sagittis nisl rhoncus mattis
+                      rhoncus urna neque viverra justo.
+                    </p>
+                    <p>
+                      A cras semper auctor neque vitae tempus quam. Senectus et
+                      netus et malesuada fames. Id velit ut tortor pretium
+                      viverra suspendisse potenti nullam.
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
           <div className="row sdd">

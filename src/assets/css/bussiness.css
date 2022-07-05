@@ -7,6 +7,7 @@
 .bussiness-sec .content-wrapper h2 {
   color: #ee4698;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .main-cirlce-wrapper {
   position: relative;
@@ -64,7 +65,7 @@
   top: 177%;
   left: 35%;
 }
-.side-circle-wrapper a {
+.side-circle-wrapper a:hover {
   text-decoration: none;
 }
 .cirle-wrapper .Cosmetics {
@@ -83,7 +84,7 @@
 .bussiness-sec .side-contect {
   position: absolute;
   margin-top: 112px;
-  width: 80%;
+  width: 43%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   background: #f7b7d3;
@@ -99,6 +100,51 @@
   text-align: left;
   font-weight: 700 !important;
 }
+.more-chart-text a {
+  color: #ee4698;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.contemt {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+
+.side-contect1 {
+  top: -210px;
+}
+.side-contect2 {
+  left: 0px;
+  bottom: unset;
+  top: -333px;
+  width: 28% !important;
+}
+
+.bussiness-sec .side-contect3 {
+  top: -202px;
+  left: 0px;
+  width: 28%;
+}
+
+.bussiness-sec .side-contec4 {
+  top: -253px;
+}
+.bussiness-sec .side-contect5 {
+  right: 0px;
+  width: 28%;
+  top: -161px;
+}
+
+.bussiness-sec .side-contect6 {
+  right: 0px;
+  width: 31%;
+  top: -350px;
+}
+
 @media (max-width: 1440px) {
   .cirle-wrapper .Alternative {
     right: 1%;
@@ -123,9 +169,23 @@
     top: 49%;
     left: 8%;
   }
-}
-.more-chart-text a {
-  color: #ee4698;
-  text-transform: capitalize;
-  text-decoration: underline;
+  .bussiness-sec .side-contect6 {
+    right: 0px;
+    width: 25%;
+    top: -350px;
+  }
+  .main-cirlce-wrapper .main-circle-content-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+  .bussiness-sec .side-contect5 {
+    right: 0px;
+    width: 25%;
+    top: -246px;
+  }
+  .bussiness-sec .side-contec4 {
+    top: -253px;
+    margin-left: 49px;
+  }
 }

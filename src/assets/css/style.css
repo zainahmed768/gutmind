@@ -14,6 +14,7 @@ h2 {
   font-size: 32px !important;
   line-height: 1.5 !important;
   font-weight: 600 !important;
+  text-transform: uppercase ;
 }
 h3 {
   font-family: "poppins";
@@ -176,6 +177,9 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 /* header ends here */
 .Banner-slider {
   padding-top: 94px;
+}
+.Banner-slider h1 {
+  text-transform: uppercase;
 }
 /* face sec starts here */
 .face-sec {

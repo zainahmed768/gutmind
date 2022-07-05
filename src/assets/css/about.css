@@ -3,10 +3,12 @@
 }
 .about-sec .content-wrapper h2 {
   color: #ee4698;
+  text-transform: uppercase;
 }
 .about-sec .content-wrapper h4 {
   color: #f499c0;
   margin-top: 25px;
+  text-transform: uppercase;
 }
 .about-sec .content-wrapper p {
   font-size: 17px !important;

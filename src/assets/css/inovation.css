@@ -4,11 +4,13 @@
 }
 .inovation-sec h2 {
   color: #ee4698;
+  text-transform: uppercase;
 }
 .inovation-sec h4 {
   color: #f499c0;
   font-size: 22px !important;
   margin-top: 27px;
+  text-transform: uppercase;
 }
 .inovation-sec p {
   color: #747474;
@@ -27,8 +29,8 @@
   font-weight: 700 !important;
   font-style: italic;
   font-size: 22px !important;
+  text-transform: uppercase;
 }
-
 .maincountainer {
   position: absolute;
   width: 150px;
@@ -62,7 +64,7 @@
   backface-visibility: hidden;
   background-size: contain;
   text-align: center;
-  font-family: "lobster", cursive;
+  font-family: "lobster";
   color: white;
 }
 
@@ -74,7 +76,7 @@
   height: 100%;
   border-radius: 10px;
   backface-visibility: hidden;
-  font-family: "lobster", cursive;
+  font-family: "lobster";
   color: black;
   font-size: 3em;
   text-align: center;
