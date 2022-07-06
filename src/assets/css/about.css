@@ -15,6 +15,15 @@
   color: #747474;
   font-weight: 400 !important;
 }
+.about-sec .content-wrapper ul{
+  padding-left: 20px;
+}
+.about-sec .content-wrapper ul li {
+  font-size: 17px !important;
+  color: #747474;
+  font-weight: 400 !important;
+  margin-bottom: 15px;
+}
 .about-sec .northen-wrapper {
   text-align: center;
   padding: 30px 0px;

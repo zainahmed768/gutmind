@@ -15,13 +15,33 @@ const About = () => {
               <div className="content-wrapper">
                 <h2>About GutMind</h2>
                 <h4>what we do</h4>
-                <p>- GutMind is a healthtech company.</p>
-                <p>
+                <ul>
+                  <li>GutMind is a healthtech company.</li>
+                  <li>
+                    We use proprietary AI tools to discover novel botanical
+                    functional ingredients which offer targeted physical and
+                    mental health benefits.
+                  </li>
+                  <li>
+                    At GutMind, we strongly believe in fully controlling the
+                    product story and positioning to maximize our impact
+                    potential
+                  </li>
+                  <li>
+                    GutMind’s consumer-facing business units incorporate our
+                    novel botanical functional ingredients in EVERYDAY food
+                    products people already eat, so we don't need to ask people
+                    to change their dietary habits, thereby making a BIG IMPACT
+                    on global mental-health, health and climate* crisis.
+                  </li>
+                </ul>
+                {/* <p>- GutMind is a healthtech company.</p> */}
+                {/* <p>
                   - We use proprietary AI tools to discover novel botanical
                   functional ingredients which offer targeted physical and
                   mental health benefits.
-                </p>
-                <p>
+                </p> */}
+                {/* <p>
                   - At GutMind, we strongly believe in fully controlling the
                   product story and positioning to maximize our impact potential
                 </p>
@@ -31,23 +51,25 @@ const About = () => {
                   products people already eat, so we don't need to ask people to
                   change their dietary habits, thereby making a BIG IMPACT on
                   global mental-health, health and climate* crisis.
-                </p>
+                </p> */}
               </div>
               <div className="content-wrapper pt-5 pb-3">
                 <h2>
                   Our Culture: Mission Oriented, United By Our Values, And
                   Committed To:
                 </h2>
-                <p>- Do things differently than others to win.</p>
-                <p>
-                  - Embrace risk in order to enable breakthrough innovation and
-                  meaningful contribution and impact.
-                </p>
-                <p>
-                  - Solve complex problems by creating thoughtful solution
-                  frameworks and to be persistent to minimize the solution space
-                  by refining the frameworks.
-                </p>
+                <ul>
+                  <li>Do things differently than others to win.</li>
+                  <li>
+                    Embrace risk in order to enable breakthrough innovation and
+                    meaningful contribution and impact.
+                  </li>
+                  <li>
+                    Solve complex problems by creating thoughtful solution
+                    frameworks and to be persistent to minimize the solution
+                    space by refining the frameworks.
+                  </li>
+                </ul>
               </div>
               <div className="content-wrapper">
                 <div className="row">
