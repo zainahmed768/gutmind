@@ -14,7 +14,7 @@ h2 {
   font-size: 32px !important;
   line-height: 1.5 !important;
   font-weight: 600 !important;
-  text-transform: uppercase ;
+  text-transform: uppercase;
 }
 h3 {
   font-family: "poppins";
@@ -264,6 +264,7 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   margin: 0px;
   font-size: 20px !important;
   color: #464646;
+  text-transform: uppercase;
 }
 .footer {
   padding: 40px 0px;
