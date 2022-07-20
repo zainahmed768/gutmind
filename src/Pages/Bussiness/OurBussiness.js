@@ -62,7 +62,7 @@ const OurBussiness = () => {
             <div className="col-lg-3"></div>
             <div className="col-lg-6 mt-5">
               <div className="more-chart-text">
-                <a href="">click on each BU to learn more</a>
+                <a href="javascript:void(0)">click on each BU to learn more</a>
               </div>
               <div className="cirle-wrapper mt-5">
                 <div
@@ -70,7 +70,7 @@ const OurBussiness = () => {
                   onMouseEnter={handleMouseOver}
                   onMouseLeave={handleMouseOut}
                 >
-                  <a href="https://mojudrinks.com/" target="blank">
+                  <a href="https://mojodrinks.com/" target="blank">
                     <h5>
                       Performsnce <br /> Beverages <br /> BU
                     </h5>
@@ -117,7 +117,7 @@ const OurBussiness = () => {
                   onMouseOver={handleMouseOver6}
                   onMouseOut={handleMouseOut6}
                 >
-                  <a href="https://www.denovofoods.com.au/" target="blank">
+                  <a href="https://denovofood.com/" target="blank">
                     <h5>
                       Alternative <br /> Meats <br /> BU
                     </h5>

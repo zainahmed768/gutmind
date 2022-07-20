@@ -98,12 +98,12 @@ const Header = () => {
             <li className="nav-item">
               <Link to="/OurBussiness">Our Businesses</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/team">Team</Link>
             </li>
             <li className="nav-item">
               <Link to="/news">News</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/contact">Contact Us</Link>
             </li>
