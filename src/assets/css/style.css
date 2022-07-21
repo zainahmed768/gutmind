@@ -265,12 +265,14 @@ header .cross i {
 /* footer starts here */
 .footer p {
   margin: 0px;
-  font-size: 20px !important;
+  font-size: 15px !important;
   color: #464646;
   text-transform: uppercase;
 }
 .footer {
   padding: 40px 0px;
   text-align: center;
+  background: #f2f2f2;
 }
+
 /* footer ends here */

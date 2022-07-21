@@ -72,7 +72,7 @@ const OurBussiness = () => {
                 >
                   <a href="https://mojodrinks.com/" target="blank">
                     <h5>
-                      Performsnce <br /> Beverages <br /> BU
+                      Performsnce <br /> Beverages <br /> 
                     </h5>
                   </a>
                 </div>
@@ -82,7 +82,7 @@ const OurBussiness = () => {
                   onMouseOut={handleMouseOut2}
                 >
                   <h5>
-                    Therapeutics <br /> BU
+                    Therapeutics <br />
                   </h5>
                 </div>
                 <div
@@ -91,7 +91,7 @@ const OurBussiness = () => {
                   onMouseOut={handleMouseOut3}
                 >
                   <h5>
-                    Therapeutics <br /> BU
+                    Therapeutics <br /> 
                   </h5>
                 </div>
                 <div
@@ -100,7 +100,7 @@ const OurBussiness = () => {
                   onMouseOut={handleMouseOut4}
                 >
                   <h5>
-                    Medical <br /> Foods <br /> BU
+                    Medical <br /> Foods <br />
                   </h5>
                 </div>
                 <div
@@ -109,7 +109,7 @@ const OurBussiness = () => {
                   onMouseOut={handleMouseOut5}
                 >
                   <h5>
-                    Cosmetics <br /> BU
+                    Cosmetics <br /> 
                   </h5>
                 </div>
                 <div
@@ -119,7 +119,7 @@ const OurBussiness = () => {
                 >
                   <a href="https://denovofood.com/" target="blank">
                     <h5>
-                      Alternative <br /> Meats <br /> BU
+                      Alternative <br /> Meats <br />
                     </h5>
                   </a>
                 </div>
