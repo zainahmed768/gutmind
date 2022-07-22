@@ -71,6 +71,11 @@ header .icon-wrapper {
   text-align: -webkit-right;
   /* z-index: 8; */
 }
+@media (max-width: 1440px) {
+  .cross {
+    top: -103px;
+  }
+}
 /* mobil header starts here */
 header .mobile-header {
   width: 30%;

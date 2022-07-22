@@ -55,30 +55,30 @@
   color: #fff;
 }
 .cirle-wrapper .Performsnce {
-  left: 34%;
+  left: 35%;
 }
 .cirle-wrapper .Therapeutics {
-  top: 40%;
+  top: 46%;
   left: 8%;
 }
 .cirle-wrapper .Therapes {
-  top: 134%;
-  left: 7%;
+  top: 135%;
+  left: 9%;
 }
 .cirle-wrapper .Medical {
   top: 177%;
-  left: 35%;
+  left: 36%;
 }
 .side-circle-wrapper a:hover {
   text-decoration: none;
 }
 .cirle-wrapper .Cosmetics {
-  top: 141%;
-  right: 17%;
+  top: 130%;
+  right: 16%;
 }
 .cirle-wrapper .Alternative {
   top: 47%;
-  right: 15%;
+  right: 16%;
 }
 .bussiness-sec p {
   font-size: 16px !important;
@@ -152,28 +152,33 @@
 }
 
 @media (max-width: 1440px) {
+  .main-cirlce-wrapper {
+    left: 36.2%;
+    position: relative;
+    top: 192px;
+  }
   .cirle-wrapper .Alternative {
-    right: 1%;
-    top: 40%;
+    right: 5%;
+    top: 44%;
   }
   .cirle-wrapper .Cosmetics {
     top: 131%;
-    right: 0%;
+    right: 5%;
   }
   .cirle-wrapper .Medical {
     top: 177%;
-    left: 41%;
+    left: 43%;
   }
   .cirle-wrapper .Performsnce {
     left: 41%;
   }
   .cirle-wrapper .Therapes {
     top: 135%;
-    left: 9%;
+    left: 13%;
   }
   .cirle-wrapper .Therapeutics {
     top: 49%;
-    left: 8%;
+    left: 12%;
   }
   .bussiness-sec .side-contect6 {
     right: 0px;
@@ -198,6 +203,29 @@
 @media (max-width: 1366px) {
   .main-cirlce-wrapper .main-circle-content-wrapper {
     left: 11%;
+  }
+  .cirle-wrapper .Cosmetics {
+    top: 132%;
+    right: 2%;
+  }
+  .cirle-wrapper .Alternative {
+    right: 1%;
+    top: 46%;
+  }
+  .cirle-wrapper .Therapeutics {
+    top: 46%;
+    left: 11%;
+  }
+  .cirle-wrapper .Therapes {
+    top: 135%;
+    left: 11%;
+  }
+  .cirle-wrapper .Performsnce {
+    left: 42%;
+  }
+  .side-contect1 {
+    top: -210px;
+    left: 31%;
   }
 }
 @media (max-width: 1280px) {
