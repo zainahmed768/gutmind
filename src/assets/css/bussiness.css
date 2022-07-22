@@ -88,7 +88,7 @@
 .bussiness-sec .side-contect {
   position: absolute;
   margin-top: 112px;
-  width: 43%;
+  width: 45%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   background: #f7b7d3;
@@ -199,6 +199,11 @@
     top: -253px;
     margin-left: 49px;
   }
+  .side-contect1 {
+    top: -214px;
+    left: 30%;
+    height: 464px;
+  }
 }
 @media (max-width: 1366px) {
   .main-cirlce-wrapper .main-circle-content-wrapper {
@@ -223,10 +228,7 @@
   .cirle-wrapper .Performsnce {
     left: 42%;
   }
-  .side-contect1 {
-    top: -210px;
-    left: 31%;
-  }
+
   .main-cirlce-wrapper .main-circle-content-wrapper {
     position: absolute;
     top: 45%;
