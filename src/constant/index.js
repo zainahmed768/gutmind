@@ -15,23 +15,29 @@ import com2 from "../assets/img/comm2.png";
 import com3 from "../assets/img/comm3.png";
 import com4 from "../assets/img/comm4.png";
 import toggle_icon from "../assets/img/toggle-icon.svg";
+import com from "../assets/img/com.png";
+import mojologos from "../assets/img/mojo-logos.png";
+import denovomeat from "../assets/img/denovomeat.png";
 
 export {
-  logo,
-  team1,
-  team2,
-  team3,
-  team4,
-  News1,
-  News2,
-  News3,
-  News4,
-  News5,
-  News6,
-  main_circle,
-  com1,
-  com2,
-  com3,
-  com4,
-  toggle_icon,
+	mojologos,
+	denovomeat,
+	logo,
+	com,
+	team1,
+	team2,
+	team3,
+	team4,
+	News1,
+	News2,
+	News3,
+	News4,
+	News5,
+	News6,
+	main_circle,
+	com1,
+	com2,
+	com3,
+	com4,
+	toggle_icon,
 };

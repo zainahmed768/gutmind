@@ -1,242 +1,256 @@
 .bussiness-sec {
-  padding: 50px 0px;
+	padding: 50px 0px;
 }
 .bussiness-sec .content-wrapper {
-  text-align: center;
+	text-align: center;
 }
 .bussiness-sec .content-wrapper h2 {
-  color: #ee4698;
-  font-weight: 600;
-  text-transform: uppercase;
+	color: #ee4698;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 .main-cirlce-wrapper {
-  position: relative;
-  top: 192px;
-  left: 228px;
+	position: relative;
+	top: 192px;
+	left: 228px;
 }
 .main-cirlce-wrapper .main-circle-content-wrapper {
-  position: absolute;
-  top: 45%;
-  left: 9%;
+	position: absolute;
+	top: 45%;
+	left: 9%;
 }
 .main-cirlce-wrapper .main-circle-content-wrapper h4 {
-  color: #fff;
-  font-weight: 600;
+	color: #fff;
+	font-weight: 600;
 }
 .bussiness-sec {
-  padding: 104px 0px;
-  position: relative;
-  padding-bottom: 400px;
-  z-index: 1;
+	padding: 104px 0px;
+	position: relative;
+	padding-bottom: 400px;
+	z-index: 1;
 }
 .bussiness-sec .cirle-wrapper {
-  position: relative;
+	position: relative;
 }
 .side-circle-wrapper {
-  height: 165px;
-  width: 165px;
-  background: #f7b7d3;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px dashed #ef4999;
-  margin: 10px 0px;
-  position: absolute;
-  z-index: 9;
-  transition: all 0.33s ease-in-out;
+	height: 165px;
+	width: 165px;
+	background: #f7b7d3;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px dashed #ef4999;
+	margin: 10px 0px;
+	position: absolute;
+	z-index: 9;
+	transition: all 0.33s ease-in-out;
 }
 .more-chart-text {
-  text-align: center;
+	text-align: center;
 }
 .side-circle-wrapper h5 {
-  font-size: 18px !important;
-  color: #fff;
+	font-size: 18px !important;
+	color: #fff;
 }
 .cirle-wrapper .Performsnce {
-  left: 35%;
+	left: 35%;
 }
 .cirle-wrapper .Therapeutics {
-  top: 46%;
-  left: 8%;
+	top: 46%;
+	left: 8%;
 }
 .cirle-wrapper .Therapes {
-  top: 135%;
-  left: 9%;
+	top: 135%;
+	left: 9%;
 }
 .cirle-wrapper .Medical {
-  top: 177%;
-  left: 36%;
+	top: 177%;
+	left: 36%;
 }
 .side-circle-wrapper a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 .cirle-wrapper .Cosmetics {
-  top: 130%;
-  right: 16%;
+	top: 130%;
+	right: 16%;
 }
 .cirle-wrapper .Alternative {
-  top: 47%;
-  right: 16%;
+	top: 47%;
+	right: 16%;
 }
 .bussiness-sec p {
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  text-align: center;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	text-align: center;
 }
 .bussiness-sec .side-contect {
-  position: absolute;
-  margin-top: 112px;
-  width: 45%;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  background: #f7b7d3;
-  padding: 20px;
-  color: #ef4999;
-  transition: all 1s ease-in-out;
+	position: absolute;
+	margin-top: 112px;
+	width: 45%;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	background: #f7b7d3;
+	padding: 20px;
+	color: #ef4999;
+	transition: all 1s ease-in-out;
 }
 .bussiness-sec .sdd {
-  margin-top: 209px;
-  text-align: left !important;
+	margin-top: 209px;
+	text-align: left !important;
 }
 .bussiness-sec .sdd .scrol p {
-  text-align: left;
-  font-weight: 700 !important;
+	text-align: left;
+	font-weight: 700 !important;
 }
 .more-chart-text a {
-  color: #ee4698;
-  text-transform: capitalize;
-  text-decoration: underline;
+	color: #ee4698;
+	text-transform: capitalize;
+	text-decoration: underline;
 }
 
 .contemt {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  z-index: 9;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	z-index: 9;
 }
 .side-circle-wrapper:hover {
-  background: #ef4999;
+	background: #ef4999;
 }
 .side-contect1 {
-  top: -210px;
+	top: -210px;
 }
 .side-contect2 {
-  left: 0px;
-  bottom: unset;
-  top: -333px;
-  width: 28% !important;
+	left: 0px;
+	bottom: unset;
+	top: -333px;
+	width: 28% !important;
 }
 
 .bussiness-sec .side-contect3 {
-  top: -202px;
-  left: 0px;
-  width: 28%;
+	top: -202px;
+	left: 0px;
+	width: 28%;
 }
 
 .bussiness-sec .side-contec4 {
-  top: -253px;
+	top: -253px;
 }
 .bussiness-sec .side-contect5 {
-  right: 0px;
-  width: 28%;
-  top: -161px;
+	right: 0px;
+	width: 28%;
+	top: -161px;
 }
 
 .bussiness-sec .side-contect6 {
-  right: 0px;
-  width: 31%;
-  top: -350px;
+	right: 0px;
+	width: 31%;
+	top: -350px;
 }
-
+.brands-sec {
+	padding: 136px 0px;
+}
+.brands-sec .brand-content-wrapper .btn {
+	background: #ea5099;
+	border-radius: 0px;
+	padding: 8px 33px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.brands-sec .brand-content-wrapper .btn:hover {
+	border-color: #ea5099;
+	background: transparent;
+	color: #ea5099;
+}
 @media (max-width: 1440px) {
-  .main-cirlce-wrapper {
-    left: 36.2%;
-    position: relative;
-    top: 192px;
-  }
-  .cirle-wrapper .Alternative {
-    right: 5%;
-    top: 44%;
-  }
-  .cirle-wrapper .Cosmetics {
-    top: 131%;
-    right: 5%;
-  }
-  .cirle-wrapper .Medical {
-    top: 177%;
-    left: 43%;
-  }
-  .cirle-wrapper .Performsnce {
-    left: 41%;
-  }
-  .cirle-wrapper .Therapes {
-    top: 135%;
-    left: 13%;
-  }
-  .cirle-wrapper .Therapeutics {
-    top: 49%;
-    left: 12%;
-  }
-  .bussiness-sec .side-contect6 {
-    right: 0px;
-    width: 25%;
-    top: -350px;
-  }
-  .main-cirlce-wrapper .main-circle-content-wrapper {
-    position: absolute;
-    top: 45%;
-    left: 72px;
-  }
-  .bussiness-sec .side-contect5 {
-    right: 0px;
-    width: 25%;
-    top: -246px;
-  }
-  .bussiness-sec .side-contec4 {
-    top: -253px;
-    margin-left: 49px;
-  }
-  .side-contect1 {
-    top: -214px;
-    left: 30%;
-    height: 464px;
-  }
+	.main-cirlce-wrapper {
+		left: 36.2%;
+		position: relative;
+		top: 192px;
+	}
+	.cirle-wrapper .Alternative {
+		right: 5%;
+		top: 44%;
+	}
+	.cirle-wrapper .Cosmetics {
+		top: 131%;
+		right: 5%;
+	}
+	.cirle-wrapper .Medical {
+		top: 177%;
+		left: 43%;
+	}
+	.cirle-wrapper .Performsnce {
+		left: 41%;
+	}
+	.cirle-wrapper .Therapes {
+		top: 135%;
+		left: 13%;
+	}
+	.cirle-wrapper .Therapeutics {
+		top: 49%;
+		left: 12%;
+	}
+	.bussiness-sec .side-contect6 {
+		right: 0px;
+		width: 25%;
+		top: -350px;
+	}
+	.main-cirlce-wrapper .main-circle-content-wrapper {
+		position: absolute;
+		top: 45%;
+		left: 72px;
+	}
+	.bussiness-sec .side-contect5 {
+		right: 0px;
+		width: 25%;
+		top: -246px;
+	}
+	.bussiness-sec .side-contec4 {
+		top: -253px;
+		margin-left: 49px;
+	}
+	.side-contect1 {
+		top: -214px;
+		left: 30%;
+		height: 464px;
+	}
 }
 @media (max-width: 1366px) {
-  .main-cirlce-wrapper .main-circle-content-wrapper {
-    left: 11%;
-  }
-  .cirle-wrapper .Cosmetics {
-    top: 132%;
-    right: 2%;
-  }
-  .cirle-wrapper .Alternative {
-    right: 1%;
-    top: 46%;
-  }
-  .cirle-wrapper .Therapeutics {
-    top: 46%;
-    left: 11%;
-  }
-  .cirle-wrapper .Therapes {
-    top: 135%;
-    left: 11%;
-  }
-  .cirle-wrapper .Performsnce {
-    left: 42%;
-  }
+	.main-cirlce-wrapper .main-circle-content-wrapper {
+		left: 11%;
+	}
+	.cirle-wrapper .Cosmetics {
+		top: 132%;
+		right: 2%;
+	}
+	.cirle-wrapper .Alternative {
+		right: 1%;
+		top: 46%;
+	}
+	.cirle-wrapper .Therapeutics {
+		top: 46%;
+		left: 11%;
+	}
+	.cirle-wrapper .Therapes {
+		top: 135%;
+		left: 11%;
+	}
+	.cirle-wrapper .Performsnce {
+		left: 42%;
+	}
 
-  .main-cirlce-wrapper .main-circle-content-wrapper {
-    position: absolute;
-    top: 45%;
-    left: 72px;
-  }
+	.main-cirlce-wrapper .main-circle-content-wrapper {
+		position: absolute;
+		top: 45%;
+		left: 72px;
+	}
 }
 @media (max-width: 1280px) {
-  .main-cirlce-wrapper .main-circle-content-wrapper {
-    left: 12%;
-  }
+	.main-cirlce-wrapper .main-circle-content-wrapper {
+		left: 12%;
+	}
 }

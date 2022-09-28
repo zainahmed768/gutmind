@@ -1,223 +1,225 @@
 .inovation-sec {
-  padding: 40px 0px;
-  padding-top: 110px;
+	padding: 40px 0px;
+	padding-top: 110px;
 }
 .inovation-sec h2 {
-  color: #ee4698;
-  text-transform: uppercase;
+	color: #ee4698;
+	text-transform: uppercase;
 }
 .inovation-sec h4 {
-  color: #f499c0;
-  font-size: 22px !important;
-  margin-top: 27px;
-  text-transform: uppercase;
+	color: #f499c0;
+	font-size: 22px !important;
+	margin-top: 27px;
+	text-transform: uppercase;
 }
 .inovation-sec p {
-  color: #747474;
+	color: #747474;
 }
 .commercilization-sec .op {
-  margin-top: 225px;
+	margin-top: 225px;
 }
 .commercilization-sec {
-  padding: 40px 0px;
-  padding-bottom: 171px;
-  position: relative;
-  z-index: 0;
+	padding: 40px 0px;
+	padding-bottom: 171px;
+	position: relative;
+	z-index: 0;
 }
 .commercilization-sec h4 {
-  color: #ee4698;
-  font-weight: 700 !important;
-  font-style: italic;
-  font-size: 22px !important;
-  text-transform: uppercase;
+	color: #ee4698;
+	font-weight: 700 !important;
+	font-style: italic;
+	font-size: 22px !important;
+	text-transform: uppercase;
 }
 .maincountainer {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: none;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: none;
 }
 
 .thecard {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  transform-style: preserve-3d;
-  transition: all 0.8s ease;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
 }
 /* 
 .thecard:hover {
   transform: rotateY(180deg);
 } */
-
+.com-sec img.img-fluid {
+	pointer-events: none;
+}
 .thefront {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 3em;
-  border-radius: 10px;
-  backface-visibility: hidden;
-  background-size: contain;
-  text-align: center;
-  font-family: "lobster";
-  color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 3em;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	background-size: contain;
+	text-align: center;
+	font-family: "lobster";
+	color: white;
 }
 
 .theback {
-  position: absolute;
-  top: 75px;
-  left: 37px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  backface-visibility: hidden;
-  font-family: "lobster";
-  color: black;
-  font-size: 3em;
-  text-align: center;
-  transform: rotateY(0deg);
+	position: absolute;
+	top: 75px;
+	left: 37px;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	font-family: "lobster";
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	transform: rotateY(0deg);
 }
 
 .maincountainer .grey-content {
-  background: #323635;
-  border-radius: 18px;
-  height: 100px;
-  width: 100px;
-  color: #ffffff;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
+	background: #323635;
+	border-radius: 18px;
+	height: 100px;
+	width: 100px;
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
 }
 .maincountainer .blue-content {
-  background: #072541;
-  border-radius: 18px;
-  height: 100px;
-  width: 100px;
-  color: #ffffff;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
+	background: #072541;
+	border-radius: 18px;
+	height: 100px;
+	width: 100px;
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
 }
 
 .maincountainer .purple-content {
-  background: #7d228d;
-  border-radius: 18px;
-  height: 100px;
-  width: 100px;
-  color: #ffffff;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
+	background: #7d228d;
+	border-radius: 18px;
+	height: 100px;
+	width: 100px;
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
 }
 
 .maincountainer .pink-content {
-  background: #f37ca4;
-  border-radius: 18px;
-  height: 100px;
-  width: 100px;
-  color: #ffffff;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
+	background: #f37ca4;
+	border-radius: 18px;
+	height: 100px;
+	width: 100px;
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
 }
 .commercilization-sec .arrow::after {
-  content: "\f178";
-  font-family: "FontAwesome" !important;
-  position: absolute;
-  top: 42%;
-  right: -26%;
-  font-size: 24px;
+	content: "\f178";
+	font-family: "FontAwesome" !important;
+	position: absolute;
+	top: 42%;
+	right: -26%;
+	font-size: 24px;
 }
 .commercilization-sec .op h4 {
-  text-align: end;
+	text-align: end;
 }
 .commercilization-sec .op h4 span {
-  font-style: normal;
+	font-style: normal;
 }
 .commercilization-sec .circle-wrapper {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center !important;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center !important;
 }
 .commercilization-sec .circle-wrapper.pink-circle {
-  background-color: #ee4698;
+	background-color: #ee4698;
 }
 .commercilization-sec .circle-wrapper.blue-circle {
-  background-color: #072541;
+	background-color: #072541;
 }
 .commercilization-sec .circle-wrapper h4 {
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px !important;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px !important;
 }
 .commercilization-sec .circle-wrapper.pink-circle::after {
-  content: "\f178";
-  font-family: "FontAwesome" !important;
-  position: absolute;
-  top: 36%;
-  right: 2px;
-  font-size: 24px;
+	content: "\f178";
+	font-family: "FontAwesome" !important;
+	position: absolute;
+	top: 36%;
+	right: 2px;
+	font-size: 24px;
 }
 .maincountainer .thefront img {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  position: relative;
-  left: -39px;
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	position: relative;
+	left: -39px;
 }
 .commercilization-sec .circle-wrapper.pink-circle::before {
-  content: "\f178";
-  font-family: "FontAwesome" !important;
-  position: absolute;
-  top: -17%;
-  left: 2px;
-  font-size: 24px;
-  transform: rotate(45deg);
+	content: "\f178";
+	font-family: "FontAwesome" !important;
+	position: absolute;
+	top: -17%;
+	left: 2px;
+	font-size: 24px;
+	transform: rotate(45deg);
 }
 .commercilization-sec .circle-wrapper.blue-circle::after {
-  content: "\f178";
-  font-family: "FontAwesome" !important;
-  position: absolute;
-  top: -20%;
-  left: 2px;
-  font-size: 24px;
-  transform: rotate(-138deg);
+	content: "\f178";
+	font-family: "FontAwesome" !important;
+	position: absolute;
+	top: -20%;
+	left: 2px;
+	font-size: 24px;
+	transform: rotate(-138deg);
 }
 .commercilization-sec .circle-wrapper.pink-circle .circle-content::after {
-  content: "\f178";
-  font-family: "FontAwesome" !important;
-  position: absolute;
-  top: -21%;
-  right: 25%;
-  font-size: 24px;
-  transform: rotate(305deg);
+	content: "\f178";
+	font-family: "FontAwesome" !important;
+	position: absolute;
+	top: -21%;
+	right: 25%;
+	font-size: 24px;
+	transform: rotate(305deg);
 }
 .inovation-sec .vi-con {
-  background: whitesmoke;
-  padding: 20px;
-  margin: 10px;
-  height: 374px;
-  border: 1px solid #ee4698;
-  transition: all 0.3s ease-in-out;
+	background: whitesmoke;
+	padding: 20px;
+	margin: 10px;
+	height: 374px;
+	border: 1px solid #ee4698;
+	transition: all 0.3s ease-in-out;
 }
 
 .inovation-sec .vi-con:hover {
-  box-shadow: 0px 0px 4px 2px #ee4698;
+	box-shadow: 0px 0px 4px 2px #ee4698;
 }

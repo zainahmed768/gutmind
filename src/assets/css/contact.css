@@ -1,50 +1,57 @@
 .contact {
-  padding: 157px 0px;
+	padding: 157px 0px;
 }
 .contact .content-wrapper ul {
-  padding: 0px;
-  list-style: none;
+	padding: 0px;
+	list-style: none;
 }
 .contact .content-wrapper ul li {
-  line-height: 2;
-  font-size: 16px;
-  font-weight: 400;
-  color: #2d2d2d;
+	line-height: 2;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2d2d2d;
 }
 .contact h2 {
-  text-transform: uppercase;
-  color: #ee4698;
-  font-weight: 700 !important;
-  margin-bottom: 29px;
+	text-transform: uppercase;
+	color: #ee4698;
+	font-weight: 700 !important;
+	margin-bottom: 29px;
 }
 .contact-form-wrapper input.form-control {
-  border: none;
-  border-bottom: 2px solid #000000;
-  border-radius: 0px;
-  padding: 0px;
-  height: 40px;
+	border: none;
+	border-bottom: 2px solid #000000;
+	border-radius: 0px;
+	padding: 0px;
+	height: 40px;
 }
 .contact-form-wrapper input.form-control::placeholder {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
 }
 .contact-form-wrapper textarea.form-control {
-  border: none;
-  border-bottom: 2px solid #000000;
-  border-radius: 0px;
-  padding: 0px;
+	border: none;
+	border-bottom: 2px solid #000000;
+	border-radius: 0px;
+	padding: 0px;
 }
 .contact-form-wrapper textarea.form-control::placeholder {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
 }
 .contact .contact-form-wrapper button.btn {
-  background: #000000;
-  border-radius: 0px;
-  padding: 11px 47px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
+	background: #000000;
+	border-radius: 0px;
+	padding: 11px 47px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
 }
+/* responsive starts here */
+@media (max-width: 480px) {
+	.contact-form-wrapper input.form-control {
+		margin: 10px 0px;
+	}
+}
+/* responsive end here */
