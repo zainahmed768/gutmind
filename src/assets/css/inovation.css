@@ -223,3 +223,26 @@
 .inovation-sec .vi-con:hover {
 	box-shadow: 0px 0px 4px 2px #ee4698;
 }
+/* responsive starts here */
+@media (max-width: 414px) {
+	.inovation-sec .vi-con {
+		height: 430px;
+	}
+
+	.inovation-sec h2 {
+		color: #ee4698;
+		text-transform: uppercase;
+		font-size: 29px !important;
+	}
+}
+@media (max-width: 390px) {
+	.inovation-sec h4 {
+		margin-top: 0px;
+	}
+}
+@media (max-width: 375px) {
+	.inovation-sec p {
+		font-size: 15px !important;
+	}
+}
+/* responsive ends here */

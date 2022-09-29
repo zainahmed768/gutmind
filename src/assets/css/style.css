@@ -294,6 +294,7 @@ header .cross i {
 	}
 	.bakery-sec {
 		height: 47vh;
+		background-position: center;
 	}
 	.star-sec h1 {
 		color: #ffffff;
@@ -310,6 +311,7 @@ header .cross i {
 	}
 	.child-sec {
 		height: 47vh;
+		background-position: center;
 	}
 	.junk-sec h1 {
 		color: #ffffff;
@@ -318,9 +320,11 @@ header .cross i {
 	}
 	.junk-sec {
 		height: 47vh;
+		background-position: center;
 	}
 	.tree-sec {
 		height: 47vh;
+		background-position: center;
 	}
 	.tree-sec h1 {
 		color: #ffffff;
@@ -329,6 +333,7 @@ header .cross i {
 	}
 	.face-sec {
 		height: 47vh;
+		background-position: center;
 	}
 	.face-sec h1 {
 		color: #ffffff;

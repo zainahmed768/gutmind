@@ -50,8 +50,14 @@
 }
 /* responsive starts here */
 @media (max-width: 480px) {
+	.contact .contact-form-wrapper .form-group {
+		margin-bottom: 0px;
+	}
 	.contact-form-wrapper input.form-control {
-		margin: 10px 0px;
+		margin: 18px 0px;
+	}
+	.contact-form-wrapper textarea.form-control {
+		margin: 18px 0px;
 	}
 }
 /* responsive end here */
