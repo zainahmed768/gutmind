@@ -314,7 +314,7 @@ const OurBussiness = () => {
 									<figure>
 										<img
 											src={mojologos}
-											className="img-fluid wow animate__animated animate__fadeInLeft"
+											className="img-fluid wow animate__animated animate__fadeInLeft mb-5 mb-lg-0"
 											alt=""
 										/>
 									</figure>
@@ -343,7 +343,7 @@ const OurBussiness = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row py-5 align-items-center">
+					<div className="row py-5 align-items-center flex-column-reverse flex-lg-row">
 						<div className="col-lg-6">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
 								<h4>Denovomeat</h4>
@@ -369,7 +369,11 @@ const OurBussiness = () => {
 							<div className="brand-logo-wrapper wow animate__animated animate__fadeInRight">
 								<a href="https://denovomeat.com/" target="blank">
 									<figure>
-										<img src={denovomeat} className="img-fluid" alt="" />
+										<img
+											src={denovomeat}
+											className="img-fluid mb-5 mb-lg-0"
+											alt=""
+										/>
 									</figure>
 								</a>
 							</div>
