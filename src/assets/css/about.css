@@ -74,6 +74,9 @@
 }
 /* responsive starts here */
 @media (max-width: 480px) {
+	.about-sec .content-wrapper h4 {
+		margin-top: 0px;
+	}
 	.about-sec .box-wrapper {
 		margin: 20px 0px;
 	}
