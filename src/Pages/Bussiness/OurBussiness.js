@@ -323,15 +323,23 @@ const OurBussiness = () => {
 						</div>
 						<div className="col-lg-6">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInRight">
-								<h4>Mojo Drinks</h4>
+								{/* <h4>Mojo Drinks</h4> */}
+								<h4>For GutMind, our businesses, Mojo:</h4>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-									inventore repellat minus id nobis ullam? Dolores, ipsum
-									assumenda incidunt asperiores repellat delectus qui, ab vel
-									possimus neque vitae. Pariatur minus nisi animi sequi
-									quibusdam! Dolor ipsam neque sapiente, aliquid veritatis
-									dolorum, quaerat, laborum minima modi excepturi architecto.
-									Minus, accusantium ipsa?
+									Global energy and functional beverage markets are $61B and
+									$120B respectively. Additionally, teenagers, who are most at
+									risk for the onset of mental health issues are among the top
+									consumers of energy beverages. Hence, our interest in this
+									space is to bring targeted mental health benefits via
+									functional ingredients to consumers of our beverages. Our
+									motto at MojoDrinks is we need more than energy to be a better
+									version of ourselves. The key functional ingredients in the
+									first beverage we are commercializing are key ingredients
+									lacking in the Western diet such as dietary fiber and vitamin
+									D. While most players in this space position their products
+									for athletes or sport enthusiasts, we position our products
+									for average consumers who want to enhance their performance in
+									their routine daily activities.
 								</p>
 								<a
 									className="btn"
@@ -346,15 +354,26 @@ const OurBussiness = () => {
 					<div className="row py-5 align-items-center flex-column-reverse flex-lg-row">
 						<div className="col-lg-6">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
-								<h4>Denovomeat</h4>
+								{/* <h4>Denovomeat</h4> */}
+								<h4>For GutMind, our businesses, Denovo:</h4>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-									inventore repellat minus id nobis ullam? Dolores, ipsum
-									assumenda incidunt asperiores repellat delectus qui, ab vel
-									possimus neque vitae. Pariatur minus nisi animi sequi
-									quibusdam! Dolor ipsam neque sapiente, aliquid veritatis
-									dolorum, quaerat, laborum minima modi excepturi architecto.
-									Minus, accusantium ipsa?
+									The global plant-based food market is expected to reach $78B
+									in 2025. There is increasing interest by consumers,
+									particularly Millennials and Gen Z, for food products with a
+									better sustainability profile. We believe this is another
+									avenue for the introduction of functional ingredients. Our
+									philosophy at DeNovoMeat is that most consumers (~95% are
+									omnivores or flexitarians) are not vegan and are not willing
+									to compromise on the joy of eating meat. So our approach to
+									product development is unique versus market leaders in this
+									space (e.g. Impossible Foods and Beyond Meat) in two ways: A)
+									we will use animal based ingredients to enhance the quality of
+									our products and better mimic animal based foods so we can
+									have a broad market adoption potential, and B) while players
+									in this space are solely focused on climate and
+									sustainability, health is also a primary focus of ours through
+									the introduction of key functional ingredients lacking in the
+									Wester diet such as dietary fibers and omega 3 fatty acids.
 								</p>
 								<a
 									className="btn"
@@ -376,6 +395,49 @@ const OurBussiness = () => {
 										/>
 									</figure>
 								</a>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
+								{/* <h4>Denovomeat</h4> */}
+								<h4>
+									Waiver language for submitting ideas for mojo and denovo:
+								</h4>
+								<p>
+									By submitting the idea, I grant MojoDrinks (DeNovoMeat for
+									DeNovoMeat.com) the right to use, reproduce, distribute,
+									publish and publicly display the entry submission.
+								</p>
+								<p>
+									I verify that the idea which is the subject matter of this
+									agreement is original to me in all respects. I am the sole and
+									exclusive owner of the entry; no part infringes the copyright
+									or any other personal or propriety right of any person.
+								</p>
+								<p>
+									I release MojoDrinks (DeNovoMeat for DeNovoMeat.com) from all
+									liability which may arise from any and/or all claims by me or
+									any third party in connection with the entry submitted.
+								</p>
+								<p>
+									I understand that my entry may be used in whole or in part, at
+									any time, without prior agreement. I agree to waive any right
+									that I may have to inspect and/or approve of the use,
+									reproduction, distribution, publication and publicly display
+									of the idea submitted or the editorial or advertising that may
+									be used in connection therewith. This consent authorizes any
+									initial and subsequent disclosure or publication of the entry
+									at any time.
+								</p>
+								<p>
+									I agree to indemnify MojoDrinks (DeNovoMeat for
+									DeNovoMeat.com) for any issues rising from my breach of any
+									covenant, representation or warranty of this agreement. I have
+									read and understand all the terms and conditions for this
+									consent, waiver and release.
+								</p>
 							</div>
 						</div>
 					</div>

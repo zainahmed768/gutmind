@@ -9,7 +9,7 @@ const Home = () => {
 		draggable: true,
 		autoplay: true,
 		autoplaySpeed: 5000,
-		arrows: false,
+		arrows: true,
 		dots: false,
 		fade: true,
 		speed: 500,

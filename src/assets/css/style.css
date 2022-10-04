@@ -200,6 +200,25 @@ header .cross i {
 	}
 }
 /* responsive ends here */
+.Banner-slider .slick-next {
+	right: 22px;
+	filter: invert(1);
+	transform: scale(1.5);
+}
+.Banner-slider .slick-next::before {
+	content: "\f061";
+	font-family: "FontAwesome";
+}
+.Banner-slider .slick-prev::before {
+	content: "\f060";
+	font-family: "FontAwesome";
+}
+.Banner-slider .slick-prev {
+	z-index: 99;
+	left: 26px;
+	transform: scale(1.5);
+	filter: invert(1);
+}
 /* header ends here */
 .Banner-slider {
 	padding-top: 94px;
