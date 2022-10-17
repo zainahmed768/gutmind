@@ -105,6 +105,7 @@ const Contact = () => {
 			.catch((err) => {
 				setLoading(false);
 				// console.log(err, "sadasdasdasda");
+				toast.error(err?.response?.data?.errors?.phone[0]);
 			});
 	};
 
@@ -134,6 +135,7 @@ const Contact = () => {
 												placeholder="Name"
 												type="text"
 												value={name}
+												required
 												onChange={(e) => setName(e.target.value)}
 												className="form-control"
 											/>
@@ -142,6 +144,7 @@ const Contact = () => {
 											<input
 												placeholder="Email"
 												type="email"
+												required
 												value={email}
 												onChange={(e) => setEmail(e.target.value)}
 												className="form-control"
@@ -151,8 +154,9 @@ const Contact = () => {
 									<div className="form-group row">
 										<div className="col-md-6">
 											<input
-												placeholder="Phone"
+												placeholder="Phone Number"
 												type="tel"
+												required
 												value={phone}
 												onChange={(e) => setPhone(e.target.value)}
 												className="form-control"
@@ -162,6 +166,7 @@ const Contact = () => {
 											<input
 												placeholder="Company"
 												type="text"
+												required
 												value={company}
 												onChange={(e) => setcompany(e.target.value)}
 												className="form-control"
@@ -172,6 +177,7 @@ const Contact = () => {
 										<input
 											placeholder="Subject"
 											type="text"
+											required
 											value={subject}
 											onChange={(e) => setsubject(e.target.value)}
 											className="form-control"
@@ -183,6 +189,7 @@ const Contact = () => {
 											className="form-control"
 											value={message}
 											type="text"
+											required
 											onChange={(e) => setMessage(e.target.value)}
 											rows="5"
 										></textarea>
