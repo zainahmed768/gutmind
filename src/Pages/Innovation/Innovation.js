@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/inovation.css";
 import { com, com1, com2, com3, com4 } from "../../constant";
+import axios from "axios";
+import { baseurl, InnovationPageUrl } from "../../Services/ApiHelper";
 
 const Innovation = () => {
+	const [post, setPost] = useState(null);
+	useEffect(() => {
+		axios.get(`${baseurl + InnovationPageUrl}`).then((response) => {
+			setPost(response?.data.response.data);
+			// console.log(post.pageTitle);
+		});
+	}, []);
 	return (
 		<>
 			<Header />
@@ -14,45 +23,25 @@ const Innovation = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="content-wrapper">
-								<h2>Our Innovation And Commercialization Process</h2>
+								<h2>{post?.pageTitle}</h2>
 							</div>
 							<div className="row">
 								<div className="col-lg-6">
 									<div className="content-wrapper vi-con">
 										<h4>Premises:</h4>
-										<p>
-											There are layers of complexities to scientifically and
-											precisely understand the impact of food on our microbiome
-											and physical and mental health.
-										</p>
-										<p>
-											We don’t have to have precise science to bring health
-											benefits to the masses.
-										</p>
-										<p>
-											The approach to realize the vision of health though food,
-											not medicine, must be dramatically different than drug
-											discovery and commercialization.
-										</p>
+										<div
+											dangerouslySetInnerHTML={{ __html: post?.premises }}
+										></div>
 									</div>
 								</div>
 								<div className="col-lg-6">
 									<div className="content-wrapper vi-con">
 										<h4>GutMind’s approach:</h4>
-										<p>
-											Use proprietary NLP-AI tools to fully map all existing
-											published knowledge about relationships between botanicals
-											and their functional ingredients, to the microbiome and
-											their metabolites, to physical and mental health.
-										</p>
-										<p>
-											Discover unique insights by observing and investigating
-											patterns of significant relationships.
-										</p>
-										<p>
-											Selectively use in-vitro gut model systems and/or clinical
-											studies for further investigations.
-										</p>
+										<div
+											dangerouslySetInnerHTML={{
+												__html: post?.gutmindApproach,
+											}}
+										></div>
 									</div>
 								</div>
 							</div>

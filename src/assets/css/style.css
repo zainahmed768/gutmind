@@ -228,11 +228,11 @@ header .cross i {
 }
 /* face sec starts here */
 .face-sec {
-	background-image: url("../img/facebg.png");
+	/* background-image: url("../img/facebg.png"); */
 	background-repeat: repeat;
 	background-size: cover;
 	height: 90vh;
-	display: inline-flex !important;
+	display: flex !important;
 	align-items: center;
 }
 .face-sec h1 {

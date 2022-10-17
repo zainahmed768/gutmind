@@ -1,18 +1,115 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/contact.css";
 import ReCAPTCHA from "react-google-recaptcha";
+import axios from "axios";
+import {
+	baseurl,
+	ContactFormUrl,
+	headers,
+	SitePageUrl,
+} from "../../Services/ApiHelper";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+	const [post, setPost] = useState(null);
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [phone, setPhone] = useState("");
+	const [message, setMessage] = useState("");
+	const [company, setcompany] = useState("");
+	const [subject, setsubject] = useState("");
+	const [loading, setLoading] = useState(false);
+	const [captcha, setCaptcha] = useState("");
+
+	useEffect(() => {
+		axios.get(`${baseurl + SitePageUrl}`).then((response) => {
+			setPost(response?.data.response.data);
+			console.log(response?.data.response.data);
+		});
+	}, []);
 	const recaptchaRef = React.createRef();
 	const onSubmit = () => {
-		const recaptchaValue = recaptchaRef.current.getValue();
-		this.props.onSubmit(recaptchaValue);
+		// const recaptchaValue = recaptchaRef.current.getValue();
+		// this.props.onSubmit(recaptchaValue);
 	};
-	function onChange(value) {
-		console.log("Captcha value:", value);
+	// const notify = () => toast("Wow so easy!");
+
+	function onCaptchaHandler(value) {
+		setCaptcha(value);
 	}
+
+	// console.log("Captcha value:", captcha);
+
+	const ContactUsHandler = (e) => {
+		e.preventDefault();
+		// console.log("run st");
+		setLoading(true);
+		if (!name || !phone || !email || !message) {
+			toast.error("Please Enter All Fields");
+			setLoading(false);
+			return;
+		}
+		if (
+			!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+				email,
+			)
+		) {
+			toast.error("Invalid Email");
+			setLoading(false);
+			return;
+		}
+		if (phone.length <= 11) {
+			toast.error("The phone must be at least 11 characters");
+			setLoading(false);
+			return;
+		}
+		if (message.length < 20) {
+			toast.error("The message must be at least 20 characters");
+			setLoading(false);
+			return;
+		}
+
+		if (!captcha) {
+			toast.error("Please fill captcha");
+			setLoading(false);
+			return;
+		}
+
+		let data = {
+			name: name,
+			phone: phone,
+			email: email,
+			company: company,
+			subject: subject,
+			message: message,
+		};
+		console.log(data);
+
+		// console.log("run md");
+
+		axios
+			.post(`${baseurl + ContactFormUrl}`, data, headers)
+			.then((response) => {
+				// setPost(response?.data.response.data);
+				setLoading(false);
+				toast.success(response?.data?.response?.data);
+				setName("");
+				setEmail("");
+				setPhone("");
+				setMessage("");
+				setcompany("");
+				setsubject("");
+				setCaptcha("");
+				console.log(response, "asascsadfsdfsdf");
+			})
+			.catch((err) => {
+				setLoading(false);
+				// console.log(err, "sadasdasdasda");
+			});
+	};
 	return (
 		<>
 			<Header />
@@ -24,54 +121,87 @@ const Contact = () => {
 							<div className="content-wrapper">
 								<h2>contact Us</h2>
 								<ul>
-									{/* <li>
-                    GutMind | 1st Floor, Unit 6 | Liverpool International
-                    Business Park |
-                  </li> */}
-									{/* <li>DeHavilland Drive | Liverpool | L24 8RN</li> */}
-									<li>info@gutmind-group.com </li>
-									<li>0151 317 4450</li>
+									<li>{post?.contactEmail}</li>
+									<li>{post?.contactPhone}</li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-lg-1"></div>
 						<div className="col-lg-5">
 							<div className="contact-form-wrapper">
-								<form id="form" onSubmit={onSubmit}>
+								<form id="form">
 									<div className="form-group row">
 										<div className="col-md-6">
-											<input placeholder="Name" className="form-control" />
+											<input
+												placeholder="Name"
+												type="text"
+												value={name}
+												onChange={(e) => setName(e.target.value)}
+												className="form-control"
+											/>
 										</div>
 										<div className="col-md-6">
-											<input placeholder="Email" className="form-control" />
+											<input
+												placeholder="Email"
+												type="email"
+												value={email}
+												onChange={(e) => setEmail(e.target.value)}
+												className="form-control"
+											/>
 										</div>
 									</div>
 									<div className="form-group row">
 										<div className="col-md-6">
-											<input placeholder="Phone" className="form-control" />
+											<input
+												placeholder="Phone"
+												type="tel"
+												value={phone}
+												onChange={(e) => setPhone(e.target.value)}
+												className="form-control"
+											/>
 										</div>
 										<div className="col-md-6">
-											<input placeholder="Company" className="form-control" />
+											<input
+												placeholder="Company"
+												type="text"
+												value={company}
+												onChange={(e) => setcompany(e.target.value)}
+												className="form-control"
+											/>
 										</div>
 									</div>
 									<div className="form-group">
-										<input placeholder="Subject" className="form-control" />
+										<input
+											placeholder="Subject"
+											type="text"
+											value={subject}
+											onChange={(e) => setsubject(e.target.value)}
+											className="form-control"
+										/>
 									</div>
 									<div className="form-group">
 										<textarea
 											placeholder="Type Your Message Here"
 											className="form-control"
+											value={message}
+											type="text"
+											onChange={(e) => setMessage(e.target.value)}
 											rows="5"
 										></textarea>
 									</div>
 									<ReCAPTCHA
 										ref={recaptchaRef}
 										sitekey="6LcEx5YgAAAAAGkucPGsai61Y4yspbVgwR1rmYUQ"
-										onChange={onChange}
+										onChange={onCaptchaHandler}
 									/>
 									<div className="form-group mt-3">
-										<button className="btn" type="button">
-											Submit
+										<button
+											className="btn"
+											// type="submit"
+											onClick={(e) => ContactUsHandler(e)}
+											disabled={loading}
+										>
+											{loading ? "Loading.." : "Submit"}
 										</button>
 									</div>
 								</form>
