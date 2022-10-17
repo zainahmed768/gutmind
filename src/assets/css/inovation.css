@@ -223,6 +223,10 @@
 .inovation-sec .vi-con:hover {
 	box-shadow: 0px 0px 4px 2px #ee4698;
 }
+
+.img-wrapper {
+	margin-bottom: 15vh;
+}
 /* responsive starts here */
 @media (max-width: 414px) {
 	.inovation-sec .vi-con {
@@ -232,7 +236,7 @@
 	.inovation-sec h2 {
 		color: #ee4698;
 		text-transform: uppercase;
-		font-size: 29px !important;
+		font-size: 24px !important;
 	}
 }
 @media (max-width: 400px) {

@@ -18,12 +18,14 @@ import toggle_icon from "../assets/img/toggle-icon.svg";
 import com from "../assets/img/com.png";
 import mojologos from "../assets/img/mojo-logos.png";
 import denovomeat from "../assets/img/denovomeat.png";
+import LoaderGif from "../assets/img/loading.gif";
 
 export {
 	mojologos,
 	denovomeat,
 	logo,
 	com,
+	LoaderGif,
 	team1,
 	team2,
 	team3,

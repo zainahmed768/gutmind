@@ -321,7 +321,7 @@ const OurBussiness = () => {
 									<figure>
 										<img
 											src={post?.mojoImageUrl}
-											className="img-fluid wow animate__animated animate__fadeInLeft mb-5 mb-lg-0"
+											className="img-fluid wow animate__animated animate__fadeInLeft margin_add mb-lg-0"
 											alt=""
 										/>
 									</figure>
@@ -339,7 +339,7 @@ const OurBussiness = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row py-5 align-items-center flex-column-reverse flex-lg-row">
+					<div className="row padding_add align-items-center flex-column-reverse flex-lg-row">
 						<div className="col-lg-6">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
 								<div
@@ -358,7 +358,7 @@ const OurBussiness = () => {
 									<figure>
 										<img
 											src={post?.denovomeatImageUrl}
-											className="img-fluid mb-5 mb-lg-0"
+											className="img-fluid margin_add mb-lg-0"
 											alt=""
 										/>
 									</figure>
@@ -366,7 +366,7 @@ const OurBussiness = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row margin_add">
 						<div className="col-lg-12">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
 								<div dangerouslySetInnerHTML={{ __html: post?.content }}></div>

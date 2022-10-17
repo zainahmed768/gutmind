@@ -1,6 +1,13 @@
 .bussiness-sec {
 	padding: 50px 0px;
 }
+.margin_add {
+	margin-bottom: 50px;
+}
+
+.padding_add {
+	padding-bottom: 3rem;
+}
 .bussiness-sec .content-wrapper {
 	text-align: center;
 }
@@ -252,5 +259,19 @@
 @media (max-width: 1280px) {
 	.main-cirlce-wrapper .main-circle-content-wrapper {
 		left: 12%;
+	}
+}
+@media (max-width: 480px) {
+	.brands-sec {
+		padding: 81px 0px;
+	}
+	.margin_add {
+		margin-bottom: 10px;
+	}
+	.padding_add {
+		padding-bottom: 0rem;
+	}
+	.about-sec .content-wrapper h2 {
+		font-size: 18px !important;
 	}
 }

@@ -4,16 +4,23 @@ import Header from "../../components/Header";
 import "../../assets/css/about.css";
 import axios from "axios";
 import { baseurl, AboutPageUrl } from "../../Services/ApiHelper";
+import Spinner from "../../constant/Spinner";
 
 const About = () => {
+	const [loader, setLoader] = useState(false);
 	const [post, setPost] = useState(null);
 	useEffect(() => {
+		setLoader(true);
 		axios.get(`${baseurl + AboutPageUrl}`).then((response) => {
 			setPost(response?.data.response.data);
 			// console.log(response?.data.response.data);
+			setLoader(false);
 		});
 	}, []);
 	const keypoint = post?.keyPoints.split(",");
+	if (loader) {
+		return <Spinner />;
+	}
 	return (
 		<>
 			<Header />
@@ -139,9 +146,9 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 margin_set">
 							<div className="box-wrapper light-pink">
-								<div className="box-content-wrapper">
+								<div className="box-content-wrapper ">
 									{/* <h4>Unique Targeting & Positioning, & GTM</h4> */}
 									<h4>{keypoint ? keypoint[6] : null}</h4>
 								</div>

@@ -5,13 +5,17 @@ import "../../assets/css/style.css";
 import Slider from "react-slick";
 import axios from "axios";
 import { baseurl, HomePageUrl } from "../../Services/ApiHelper";
+import Spinner from "../../constant/Spinner";
 
 const Home = () => {
 	const [post, setPost] = useState(null);
+	const [loader, setLoader] = useState(false);
 	useEffect(() => {
+		setLoader(true);
 		axios.get(`${baseurl + HomePageUrl}`).then((response) => {
 			setPost(response?.data.response.data);
 			// console.log(response?.data.response.data);
+			setLoader(false);
 		});
 	}, []);
 	const settings = {
@@ -26,6 +30,9 @@ const Home = () => {
 		cssEase: "ease-in-out",
 		touchThreshold: 100,
 	};
+	if (loader) {
+		return <Spinner />;
+	}
 	return (
 		<>
 			<Header />

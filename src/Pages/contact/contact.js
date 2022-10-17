@@ -61,13 +61,10 @@ const Contact = () => {
 			setLoading(false);
 			return;
 		}
-		if (phone.length <= 11) {
-			toast.error("The phone must be at least 11 characters");
-			setLoading(false);
-			return;
-		}
-		if (message.length < 20) {
-			toast.error("The message must be at least 20 characters");
+		if (phone.length < 11 || phone.length > 20) {
+			toast.error(
+				"The phone must be at least 11 characters and more than 20 characters",
+			);
 			setLoading(false);
 			return;
 		}
@@ -95,7 +92,7 @@ const Contact = () => {
 			.then((response) => {
 				// setPost(response?.data.response.data);
 				setLoading(false);
-				toast.success(response?.data?.response?.data);
+				toast.success("Your message was Send. Thank you for contacting us.");
 				setName("");
 				setEmail("");
 				setPhone("");
@@ -110,6 +107,7 @@ const Contact = () => {
 				// console.log(err, "sadasdasdasda");
 			});
 	};
+
 	return (
 		<>
 			<Header />
@@ -120,10 +118,10 @@ const Contact = () => {
 						<div className="col-lg-6">
 							<div className="content-wrapper">
 								<h2>contact Us</h2>
-								<ul>
+								{/* <ul>
 									<li>{post?.contactEmail}</li>
 									<li>{post?.contactPhone}</li>
-								</ul>
+								</ul> */}
 							</div>
 						</div>
 						<div className="col-lg-1"></div>

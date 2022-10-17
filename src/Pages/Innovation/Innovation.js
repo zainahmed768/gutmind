@@ -5,15 +5,23 @@ import "../../assets/css/inovation.css";
 import { com, com1, com2, com3, com4 } from "../../constant";
 import axios from "axios";
 import { baseurl, InnovationPageUrl } from "../../Services/ApiHelper";
+import Spinner from "../../constant/Spinner";
 
 const Innovation = () => {
 	const [post, setPost] = useState(null);
+	const [loader, setLoader] = useState(false);
 	useEffect(() => {
+		setLoader(true);
 		axios.get(`${baseurl + InnovationPageUrl}`).then((response) => {
 			setPost(response?.data.response.data);
+			setLoader(false);
 			// console.log(post.pageTitle);
 		});
 	}, []);
+
+	if (loader) {
+		return <Spinner />;
+	}
 	return (
 		<>
 			<Header />
@@ -146,7 +154,7 @@ const Innovation = () => {
           </div>
         </div>
       </section> */}
-			<section className="com-sec">
+			<section className="com-sec mt-5">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12">
