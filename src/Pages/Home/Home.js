@@ -21,11 +21,11 @@ const Home = () => {
 	const settings = {
 		draggable: true,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 7000,
 		arrows: true,
 		dots: false,
 		fade: true,
-		speed: 500,
+		speed: 600,
 		infinite: true,
 		cssEase: "ease-in-out",
 		touchThreshold: 100,
@@ -49,7 +49,7 @@ const Home = () => {
 								key={data.id}
 							>
 								<div className="container">
-									<div className="row">
+									<div className="row descss">
 										<div className="col-lg-6">
 											<div
 												dangerouslySetInnerHTML={{ __html: data.description }}

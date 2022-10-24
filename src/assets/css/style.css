@@ -91,6 +91,58 @@ header .icon-wrapper {
 	.cross {
 		top: -103px;
 	}
+	.content-wrapper h1 {
+		font-size: 30px !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	.content-wrapper h1 {
+		font-size: 24px !important;
+	}
+	.descss {
+		text-align: center;
+	}
+	.face-sec {
+		background-repeat: repeat;
+		background-size: cover;
+		height: 100vh;
+		display: flex !important;
+		background-position: center;
+		align-items: center;
+	}
+	.face-sec h1 {
+		text-align: center;
+	}
+
+	.Banner-slider .descss {
+		display: flex;
+		margin-right: -15px;
+		margin-left: -15px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Banner-slider .slick-next::before {
+		padding: 9px 15px !important;
+		font-size: 30px !important;
+	}
+	.Banner-slider .slick-prev::before {
+		padding: 9px 15px !important;
+		font-size: 30px !important;
+	}
+}
+@media (max-width: 1000px) {
+	.content-wrapper h1 {
+		font-size: 27px !important;
+	}
+	.Banner-slider .slick-next::before {
+		padding: 8px 12px !important;
+		font-size: 23px !important;
+	}
+	.Banner-slider .slick-prev::before {
+		padding: 8px 12px !important;
+		font-size: 23px !important;
+	}
 }
 /* mobil header starts here */
 header .mobile-header {
@@ -232,21 +284,24 @@ header .cross i {
 	transform: scale(1.5);
 }
 .Banner-slider .slick-next::before {
-	content: "\f061";
+	content: "\f105";
 	font-family: "FontAwesome";
-	background: white;
+	background: #ffffff61;
 	color: black;
-	padding: 10px;
-	border-radius: 50%;
+	padding: 6px 15px;
+	font-size: 25px;
+	/* border-radius: 50%; */
 }
 .Banner-slider .slick-prev::before {
-	content: "\f060";
-	background: white;
+	content: "\f104";
+	background: #ffffff61;
 	color: black;
 	font-family: "FontAwesome";
-	padding: 10px;
-	border-radius: 50%;
+	padding: 6px 15px;
+	font-size: 25px;
+	/* border-radius: 50%; */
 }
+
 .Banner-slider .slick-prev {
 	z-index: 99;
 	left: 26px;
