@@ -50,13 +50,13 @@ const Home = () => {
 							>
 								<div className="container">
 									<div className="row descss">
-										<div className="col-lg-6">
+										<div className="col-lg-8">
 											<div
 												dangerouslySetInnerHTML={{ __html: data.description }}
 												className="content-wrapper"
 											></div>
 										</div>
-										<div className="col-lg-6"></div>
+										<div className="col-lg-4"></div>
 									</div>
 								</div>
 							</section>

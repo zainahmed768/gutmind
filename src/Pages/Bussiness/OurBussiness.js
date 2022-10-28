@@ -366,13 +366,13 @@ const OurBussiness = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row margin_add">
+					{/* <div className="row margin_add">
 						<div className="col-lg-12">
 							<div className="brand-content-wrapper wow animate__animated animate__fadeInLeft">
 								<div dangerouslySetInnerHTML={{ __html: post?.content }}></div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</section>
 			{/* brands sec ends here */}

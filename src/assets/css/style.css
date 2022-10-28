@@ -92,13 +92,13 @@ header .icon-wrapper {
 		top: -103px;
 	}
 	.content-wrapper h1 {
-		font-size: 30px !important;
+		font-size: 24px !important;
 	}
 }
 
 @media (max-width: 1024px) {
 	.content-wrapper h1 {
-		font-size: 24px !important;
+		font-size: 23px !important;
 	}
 	.descss {
 		text-align: center;
@@ -143,6 +143,12 @@ header .icon-wrapper {
 		padding: 8px 12px !important;
 		font-size: 23px !important;
 	}
+}
+.face-sec .content-wrapper h4 {
+	font-size: 18px !important;
+	color: #fff !important;
+	font-weight: 300;
+	font-family: poppins;
 }
 /* mobil header starts here */
 header .mobile-header {
@@ -320,7 +326,7 @@ header .cross i {
 	/* background-image: url("../img/facebg.png"); */
 	background-repeat: repeat;
 	background-size: cover;
-	height: 90vh;
+	height: 81vh;
 	display: flex !important;
 	align-items: center;
 }
@@ -459,12 +465,11 @@ header .cross i {
 	text-transform: uppercase;
 }
 .footer {
-	padding: 40px 0px;
+	padding: 15px 0px;
 	text-align: center;
 	background: #f2f2f2;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 }
-
 /* footer ends here */

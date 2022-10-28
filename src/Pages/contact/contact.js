@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/contact.css";
 import ReCAPTCHA from "react-google-recaptcha";
+import Image1 from "../../assets/img/animation.gif";
 import axios from "axios";
 import {
 	baseurl,
@@ -123,6 +124,9 @@ const Contact = () => {
 									<li>{post?.contactEmail}</li>
 									<li>{post?.contactPhone}</li>
 								</ul> */}
+							</div>
+							<div className="img_set">
+								<img className="img-fluid " src={Image1} alt="" />
 							</div>
 						</div>
 						<div className="col-lg-1"></div>

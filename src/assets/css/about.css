@@ -24,9 +24,10 @@
 	font-weight: 400 !important;
 	margin-bottom: 15px;
 }
+
 .about-sec .northen-wrapper {
 	text-align: center;
-	padding: 30px 0px;
+	padding: 15px 0px;
 	border: 2px solid #ee4698;
 	border-radius: 15px;
 	margin-top: 31px;
@@ -36,7 +37,9 @@
 	font-size: 41px !important;
 }
 .about-sec .northen-wrapper h3 {
-	color: #ee4698;
+	font-size: 17px !important;
+	color: #747474;
+	font-weight: 400 !important;
 }
 .about-sec .box-wrapper {
 	background: #ee4698;
@@ -50,16 +53,21 @@
 }
 .about-sec .box-wrapper h4 {
 	color: #fff;
-	font-size: 22px !important;
 	font-weight: 600 !important;
+	font-size: 16px !important;
+	padding: 10px;
+	margin-top: 25px;
+	text-transform: uppercase;
 }
 .about-sec .box-wrapper.light-pink {
 	background: #f499c0 !important;
 	border: 2px solid #ee4698;
 }
 .about-sec .box-wrapper.light-pink h4 {
-	font-size: 19px !important;
+	font-size: 16px !important;
 	padding: 10px;
+	margin-top: 25px;
+	text-transform: uppercase;
 }
 .about-sec .vi-con {
 	background: whitesmoke;
@@ -72,6 +80,9 @@
 
 .about-sec .vi-con:hover {
 	box-shadow: 0px 0px 4px 2px #ee4698;
+}
+.vi-con2 {
+	height: 530px !important;
 }
 /* responsive starts here */
 @media (max-width: 480px) {

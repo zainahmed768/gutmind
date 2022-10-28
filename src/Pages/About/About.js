@@ -5,6 +5,7 @@ import "../../assets/css/about.css";
 import axios from "axios";
 import { baseurl, AboutPageUrl } from "../../Services/ApiHelper";
 import Spinner from "../../constant/Spinner";
+import { logo } from "../../constant";
 
 const About = () => {
 	const [loader, setLoader] = useState(false);
@@ -28,16 +29,39 @@ const About = () => {
 			<section className="about-sec">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-11">
+						<div className="col-lg-12">
 							<div className="content-wrapper">
 								<h2>{post?.pageTitle}</h2>
-								<div dangerouslySetInnerHTML={{ __html: post?.content }}></div>
+								<video
+									poster={logo}
+									width="100%"
+									height="350px"
+									controls="controls"
+								></video>
+								<div className="row">
+									<div className="col-lg-6">
+										<div className="vi-con vi-con2">
+											<div
+												dangerouslySetInnerHTML={{ __html: post?.content }}
+											></div>
+										</div>
+									</div>
+									<div className="col-lg-6">
+										<div className="vi-con vi-con2">
+											<div
+												dangerouslySetInnerHTML={{ __html: post?.ourCulture }}
+											></div>
+										</div>
+									</div>
+								</div>
+								{/* <h2>{post?.pageTitle}</h2>
+								<div dangerouslySetInnerHTML={{ __html: post?.content }}></div> */}
 							</div>
-							<div className="content-wrapper pt-5 pb-3">
+							{/* <div className="content-wrapper pt-5 pb-3">
 								<div
 									dangerouslySetInnerHTML={{ __html: post?.ourCulture }}
 								></div>
-							</div>
+							</div> */}
 							<div className="content-wrapper">
 								<div className="row">
 									<div className="col-lg-6">
@@ -88,14 +112,14 @@ const About = () => {
 						</div>
 					</div>
 					<div className="row pt-3">
-						<div className="col-lg-2">
+						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
 									<h4> {keypoint ? keypoint[0] : null}</h4>
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
 									{/* <h4>Our Innovation Philosophy</h4> */}
@@ -103,7 +127,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
 									{/* <h4>Our Innovation Philosophy</h4> */}
@@ -111,7 +135,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-6">
+						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
 									{/* <h4>Our marketing strategy</h4> */}
@@ -121,8 +145,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="row pt-3">
-						<div className="col-lg-2"></div>
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
 									{/* <h4>Our Gut Operating System Platform</h4> */}
@@ -130,7 +153,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
 									{/* <h4>Our Product Design Priorities</h4> */}
@@ -138,7 +161,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
 									{/* <h4>Our Formulations & Brands</h4> */}
@@ -146,7 +169,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 margin_set">
+						<div className="col-lg-3 margin_set">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper ">
 									{/* <h4>Unique Targeting & Positioning, & GTM</h4> */}
