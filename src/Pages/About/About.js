@@ -5,7 +5,7 @@ import "../../assets/css/about.css";
 import axios from "axios";
 import { baseurl, AboutPageUrl } from "../../Services/ApiHelper";
 import Spinner from "../../constant/Spinner";
-import { logo } from "../../constant";
+import { logo, Charts } from "../../constant";
 
 const About = () => {
 	const [loader, setLoader] = useState(false);
@@ -104,14 +104,15 @@ const About = () => {
 						<div className="col-lg-12">
 							<div className="content-wrapper">
 								<h2>Key Components Of Our Strategy To Win</h2>
-								<div className="northen-wrapper">
+								{/* <div className="northen-wrapper">
 									<h2>{post?.title}</h2>
 									<h3>{post?.subTitle}</h3>
-								</div>
+								</div> */}
+								<img src={Charts} alt="Charts	" className="img-fluid" />
 							</div>
 						</div>
 					</div>
-					<div className="row pt-3">
+					{/* <div className="row pt-3">
 						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
@@ -122,7 +123,6 @@ const About = () => {
 						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
-									{/* <h4>Our Innovation Philosophy</h4> */}
 									<h4>{keypoint ? keypoint[1] : null}</h4>
 								</div>
 							</div>
@@ -130,7 +130,6 @@ const About = () => {
 						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
-									{/* <h4>Our Innovation Philosophy</h4> */}
 									<h4>{keypoint ? keypoint[1] : null}</h4>
 								</div>
 							</div>
@@ -138,17 +137,15 @@ const About = () => {
 						<div className="col-lg-3">
 							<div className="box-wrapper">
 								<div className="box-content-wrapper">
-									{/* <h4>Our marketing strategy</h4> */}
 									<h4>{keypoint ? keypoint[2] : null}</h4>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div className="row pt-3">
+					</div> */}
+					{/* <div className="row pt-3">
 						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
-									{/* <h4>Our Gut Operating System Platform</h4> */}
 									<h4>{keypoint ? keypoint[3] : null}</h4>
 								</div>
 							</div>
@@ -156,7 +153,6 @@ const About = () => {
 						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
-									{/* <h4>Our Product Design Priorities</h4> */}
 									<h4>{keypoint ? keypoint[4] : null}</h4>
 								</div>
 							</div>
@@ -164,7 +160,6 @@ const About = () => {
 						<div className="col-lg-3">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper">
-									{/* <h4>Our Formulations & Brands</h4> */}
 									<h4>{keypoint ? keypoint[5] : null}</h4>
 								</div>
 							</div>
@@ -172,12 +167,11 @@ const About = () => {
 						<div className="col-lg-3 margin_set">
 							<div className="box-wrapper light-pink">
 								<div className="box-content-wrapper ">
-									{/* <h4>Unique Targeting & Positioning, & GTM</h4> */}
 									<h4>{keypoint ? keypoint[6] : null}</h4>
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</section>
 			{/* about sec ends here */}

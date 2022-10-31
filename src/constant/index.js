@@ -19,8 +19,10 @@ import com from "../assets/img/com.png";
 import mojologos from "../assets/img/mojo-logos.png";
 import denovomeat from "../assets/img/denovomeat.png";
 import LoaderGif from "../assets/img/loading.gif";
+import Charts from "../assets/img/Chart.png";
 
 export {
+	Charts,
 	mojologos,
 	denovomeat,
 	logo,
