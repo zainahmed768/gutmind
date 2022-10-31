@@ -83,10 +83,13 @@
 	box-shadow: 0px 0px 4px 2px #ee4698;
 }
 .vi-con2 {
-	height: 530px !important;
+	height: auto !important;
 }
 /* responsive starts here */
 @media (max-width: 480px) {
+	.vi-con2 {
+		height: auto !important;
+	}
 	.about-sec .margin_set {
 		margin-bottom: 20px;
 	}
