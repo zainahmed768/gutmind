@@ -24,6 +24,9 @@ const Contact = () => {
 	const [subject, setsubject] = useState("");
 	const [loading, setLoading] = useState(false);
 	const [captcha, setCaptcha] = useState("");
+	const Apiurl = "https://backend-gutmind.developer-ourbase-camp.com/uploads/";
+
+	console.log(post?.contactImage, "4565");
 
 	useEffect(() => {
 		axios.get(`${baseurl + SitePageUrl}`).then((response) => {
@@ -84,9 +87,8 @@ const Contact = () => {
 			subject: subject,
 			message: message,
 		};
-		console.log(data);
 
-		// console.log("run md");
+		console.log(Apiurl + post?.contactImage, "run md");
 
 		axios
 			.post(`${baseurl + ContactFormUrl}`, data, headers)
@@ -126,7 +128,11 @@ const Contact = () => {
 								</ul> */}
 							</div>
 							<div className="img_set">
-								<img className="img-fluid " src={Image1} alt="" />
+								<img
+									className="img-fluid "
+									src={Apiurl + post?.contactImage}
+									alt=""
+								/>
 							</div>
 						</div>
 						<div className="col-lg-1"></div>

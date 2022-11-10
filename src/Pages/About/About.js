@@ -3,18 +3,25 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../assets/css/about.css";
 import axios from "axios";
-import { baseurl, AboutPageUrl } from "../../Services/ApiHelper";
+import { baseurl, AboutPageUrl, SitePageUrl } from "../../Services/ApiHelper";
 import Spinner from "../../constant/Spinner";
 import { logo, Charts } from "../../constant";
 
 const About = () => {
 	const [loader, setLoader] = useState(false);
 	const [post, setPost] = useState(null);
+	const [posts, setPosts] = useState(null);
+	const Apiurl = "https://backend-gutmind.developer-ourbase-camp.com/uploads/";
+	useEffect(() => {
+		axios.get(`${baseurl + SitePageUrl}`).then((response) => {
+			setPosts(response?.data.response.data);
+			console.log(response?.data.response.data);
+		});
+	}, []);
 	useEffect(() => {
 		setLoader(true);
 		axios.get(`${baseurl + AboutPageUrl}`).then((response) => {
 			setPost(response?.data.response.data);
-			// console.log(response?.data.response.data);
 			setLoader(false);
 		});
 	}, []);
@@ -108,7 +115,11 @@ const About = () => {
 									<h2>{post?.title}</h2>
 									<h3>{post?.subTitle}</h3>
 								</div> */}
-								<img src={Charts} alt="Charts	" className="img-fluid" />
+								<img
+									src={Apiurl + posts?.aboutImage}
+									alt="Charts	"
+									className="img-fluid"
+								/>
 							</div>
 						</div>
 					</div>
