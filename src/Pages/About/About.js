@@ -29,6 +29,7 @@ const About = () => {
 	if (loader) {
 		return <Spinner />;
 	}
+	console.log(posts, "sdsd");
 	return (
 		<>
 			<Header />
@@ -40,11 +41,13 @@ const About = () => {
 							<div className="content-wrapper">
 								<h2>{post?.pageTitle}</h2>
 								<video
-									poster={logo}
 									width="100%"
 									height="350px"
 									controls="controls"
-								></video>
+									style={{ marginTop: "5px" }}
+								>
+									<source src={Apiurl + posts?.aboutVideo} type="video/mp4" />
+								</video>
 								<div className="row">
 									<div className="col-lg-6">
 										<div className="vi-con vi-con2">
